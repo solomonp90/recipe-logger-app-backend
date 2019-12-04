@@ -21,7 +21,11 @@ def update
     render json: @meal
 end
 
-
+def destroy
+    @meal = Meal.find(params[:id])
+    @meal.destroy
+    render json: @meal
+end
 
 private
 
