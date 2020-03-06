@@ -22,7 +22,7 @@ class RecipesController < ApplicationController
     end
 
     def destroy
-        @recipe.find(params[:id])
+        @recipe = Recipe.find(params[:id])
         @recipe.destroy
         render json: @recipe
     end
