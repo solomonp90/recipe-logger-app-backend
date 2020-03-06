@@ -3,7 +3,7 @@
 Recipe-logger is an application designed to aid its users with keeping track of their favorite recipes.
 
 
-This is the frontend repo for Recipe-logger, the backend can be found at the following address: https://github.com/solomonp90/recipe-logger-app-frontend
+This is the backend repo for Recipe-logger, the frontend can be found at the following address: https://github.com/solomonp90/recipe-logger-app-frontend
 
 ## Languages and Framework
 **Front End**
